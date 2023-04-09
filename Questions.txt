@@ -1,0 +1,4 @@
+How to compare computational requirements between implementations?
+----------------
+
+Talks about potential bottlenecks and expected hurdles in this implementation.
