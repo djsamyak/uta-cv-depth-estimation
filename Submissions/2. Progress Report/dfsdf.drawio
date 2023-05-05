@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2023-05-04T08:26:35.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="goCQyQRd0slRYx1W7-wa" version="21.2.7" type="device">
+  <diagram name="Page-1" id="KDnNpKRfLUHcIVbnzjRG">
+    <mxGraphModel dx="1183" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="mrKLL3KUes-KeZaZN4PY-12" target="mrKLL3KUes-KeZaZN4PY-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="303.75" y="320" width="597.5" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mrKLL3KUes-KeZaZN4PY-1" target="mrKLL3KUes-KeZaZN4PY-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Read Frame from Physical Camera&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="326.25" y="370" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="mrKLL3KUes-KeZaZN4PY-2" target="mrKLL3KUes-KeZaZN4PY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Perform Depth Estimation to generate Depth Mask&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="511.25" y="370" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" target="mrKLL3KUes-KeZaZN4PY-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="886" y="410" />
+              <mxPoint x="886" y="470" />
+              <mxPoint x="490" y="470" />
+            </Array>
+            <mxPoint x="861.25" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Use depth mask with extract foreground&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="701.25" y="370" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="mrKLL3KUes-KeZaZN4PY-6" target="mrKLL3KUes-KeZaZN4PY-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Separate Foreground and Background&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="410" y="490" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Perform augmentations on foreground and background&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="630" y="490" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="mrKLL3KUes-KeZaZN4PY-14" target="mrKLL3KUes-KeZaZN4PY-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Create Virtual Camera with OBS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="471.25" y="160" width="262.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mrKLL3KUes-KeZaZN4PY-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="603" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="720" />
+              <mxPoint x="960" y="280" />
+            </Array>
+            <mxPoint x="770" y="720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrKLL3KUes-KeZaZN4PY-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Send Augmented Image to Virtual Camera&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="471.25" y="680" width="262.5" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

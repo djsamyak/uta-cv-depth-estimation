@@ -1,4 +1,4 @@
 How to compare computational requirements between implementations?
-----------------
+Can I use optical flow to reduce computational overhead?
 
-Talks about potential bottlenecks and expected hurdles in this implementation.
+----------------
